@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio-Assignment</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .footer_1 h1 {
+        position: relative;
+      }
+      .footer_1 h1::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 90px;
+        height: 2px;
+        background: #4043457b;
+      }
+    </style>
   </head>
   <body class="bg-black text-white px-4 md:px-20">
     <!-- header section start -->
@@ -58,7 +72,7 @@
             alt=""
           />
           <div
-            class="absolute w-full h-[65%] top-[35%] bg-gradient-to-l from-[#17171A] to-[#17171A00] -z-10"
+            class="absolute w-full h-[65%] top-[35%] bg-gradient-to-l rounded-l-full from-[#17171A] to-[#17171A00] -z-10"
           ></div>
         </div>
         <div
@@ -111,7 +125,7 @@
             alt=""
           />
           <div
-            class="absolute w-full h-[65%] top-[35%] bg-gradient-to-l from-[#17171A] to-[#17171A00] -z-10"
+            class="absolute w-full h-[65%] top-[35%] bg-gradient-to-l rounded-l-full from-[#17171A] to-[#17171A00] -z-10"
           ></div>
         </div>
       </div>
@@ -292,7 +306,9 @@
           <!-- Grid of services -->
           <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <!-- Service 1 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">Website Development</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -300,7 +316,9 @@
               </p>
             </div>
             <!-- Service 2 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">E-Commerce Development</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -308,7 +326,9 @@
               </p>
             </div>
             <!-- Service 3 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">Web App Development</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -316,7 +336,9 @@
               </p>
             </div>
             <!-- Service 4 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">API Dev. & Integration</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -324,7 +346,9 @@
               </p>
             </div>
             <!-- Service 5 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">Cloud-Based Solutions</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -332,7 +356,9 @@
               </p>
             </div>
             <!-- Service 6 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">Web Perform. Optimization</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -340,7 +366,9 @@
               </p>
             </div>
             <!-- Service 7 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">(SEO) Services</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -348,7 +376,9 @@
               </p>
             </div>
             <!-- Service 8 -->
-            <div class="p-4 text-center space-y-3">
+            <div
+              class="p-4 text-center space-y-3 bg-gradient-to-b from-[#0E0E10] to-[#17171A3B]"
+            >
               <h2 class="text-xl font-semibold">Website Maint. & Support</h2>
               <p class="text-[#E6E6E682]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -360,15 +390,16 @@
       </section>
       <!-- Services section end -->
       <!-- FAQ’s section start -->
-      <section>
+      <section class="">
         <div class="">
           <p class="text-[#797C86] font-semibold uppercase">faq's</p>
           <h1 class="text-3xl font-semibold uppercase">
             Frequently Asked Questions
           </h1>
         </div>
-        <div class="">
+        <div class="mb-[200px]">
           <div class="my-5 space-y-9">
+            <hr class="opacity-30" />
             <div class="">
               <div class="flex justify-between uppercase">
                 <h2 class="text-[#AFB0B6]">
@@ -396,6 +427,7 @@
                 unique user experiences.
               </p>
             </div>
+            <hr class="opacity-30" />
             <div class="flex justify-between uppercase">
               <h2 class="text-[#AFB0B6]">
                 How can I schedule a web development consultation with you?
@@ -417,7 +449,7 @@
                 </svg>
               </a>
             </div>
-
+            <hr class="opacity-30" />
             <div class="flex justify-between uppercase">
               <h2 class="text-[#AFB0B6]">
                 Can I choose a specific platform for my website?
@@ -439,6 +471,7 @@
                 </svg>
               </a>
             </div>
+            <hr class="opacity-30" />
             <div class="flex justify-between uppercase">
               <h2 class="text-[#AFB0B6]">
                 What tools and technologies do you use for web development?
@@ -460,6 +493,7 @@
                 </svg>
               </a>
             </div>
+            <hr class="opacity-30" />
             <div class="flex justify-between uppercase">
               <h2 class="text-[#AFB0B6]">
                 Can I choose a specific platform for my website?
@@ -485,60 +519,61 @@
         </div>
       </section>
       <!-- Frequently Asked Questions section end -->
-      <!-- Footer section start -->
-      <footer class="space-y-6">
-        <section
-          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center items-center space-y-8 md:space-y-0"
-        >
-          <div class="uppercase space-y-2 ml-[50%] md:ml-[0px]">
-            <h1 class="text-[#797C86]">Solutions</h1>
-            <h1>Glintopia</h1>
-            <h1>Fluxway</h1>
-            <h1>Fable’s</h1>
-            <h1>PowerCore</h1>
-          </div>
-          <div class="uppercase space-y-2 ml-[50%] md:ml-[0px]">
-            <h1 class="text-[#797C86]">Customers</h1>
-            <h1>Glintopia</h1>
-            <h1>Fluxway</h1>
-            <h1>Fable’s</h1>
-            <h1>PowerCore</h1>
-          </div>
-          <div class="uppercase space-y-2 ml-[50%] md:ml-[0px]">
-            <h1 class="text-[#797C86]">Partners</h1>
-            <h1>Glintopia</h1>
-            <h1>Fluxway</h1>
-            <h1>Fable’s</h1>
-            <h1>PowerCore</h1>
-          </div>
-          <div class="uppercase space-y-2 ml-[50%] md:ml-[0px]">
-            <h1 class="text-[#797C86]">Stakeholders</h1>
-            <h1>Glintopia</h1>
-            <h1>Fluxway</h1>
-            <h1>Fable’s</h1>
-            <h1>PowerCore</h1>
-          </div>
-          <div class="uppercase space-y-2 ml-[50%] md:ml-[0px]">
-            <h1 class="text-[#797C86]">Offerings</h1>
-            <h1>Glintopia</h1>
-            <h1>Fluxway</h1>
-            <h1>Fable’s</h1>
-            <h1>PowerCore</h1>
-          </div>
-        </section>
-        <section
-          class="text-[#797C86] flex flex-col md:flex-row justify-between space-y-4 md:space-y-0"
-        >
-          <div class="flex space-x-4">
-            <p>Terms & Conditions</p>
-            <p>Privacy Policy</p>
-          </div>
-          <div>
-            <p>© 2024 All rights reserved.</p>
-          </div>
-        </section>
-      </footer>
-      <!-- Footer section end -->
     </main>
+    <!-- Footer section start -->
+    <footer class="space-y-6">
+      <hr class="opacity-30" />
+      <section
+        class="footer_1 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center items-start space-y-8 lg:space-y-0"
+      >
+        <div class="uppercase space-y-2 ml-[40%] md:ml-[0px]">
+          <h1 class="text-[#797C86]">Solutions</h1>
+          <h1>Glintopia</h1>
+          <h1>Fluxway</h1>
+          <h1>Fable’s</h1>
+          <h1>PowerCore</h1>
+        </div>
+        <div class="uppercase space-y-2 ml-[40%] md:ml-[0px]">
+          <h1 class="text-[#797C86]">Customers</h1>
+          <h1>Glintopia</h1>
+          <h1>Fluxway</h1>
+          <h1>Fable’s</h1>
+          <h1>PowerCore</h1>
+        </div>
+        <div class="uppercase space-y-2 ml-[40%] md:ml-[0px]">
+          <h1 class="text-[#797C86]">Partners</h1>
+          <h1>Glintopia</h1>
+          <h1>Fluxway</h1>
+          <h1>Fable’s</h1>
+          <h1>PowerCore</h1>
+        </div>
+        <div class="uppercase space-y-2 ml-[40%] md:ml-[0px]">
+          <h1 class="text-[#797C86]">Stakeholders</h1>
+          <h1>Glintopia</h1>
+          <h1>Fluxway</h1>
+          <h1>Fable’s</h1>
+          <h1>PowerCore</h1>
+        </div>
+        <div class="uppercase space-y-2 ml-[40%] md:ml-[0px]">
+          <h1 class="text-[#797C86]">Offerings</h1>
+          <h1>Glintopia</h1>
+          <h1>Fluxway</h1>
+          <h1>Fable’s</h1>
+        </div>
+      </section>
+      <section
+        class="text-[#797C86] flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 py-7"
+      >
+        <hr class="opacity-30" />
+        <div class="flex space-x-4">
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div>
+          <p>© 2024 All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer section end -->
   </body>
 </html>
